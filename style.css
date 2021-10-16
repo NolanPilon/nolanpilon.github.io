@@ -1,0 +1,40 @@
+p {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+hr {
+  width: 100%;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+q {
+  color: #ffffff;
+}
+
+.whiteColor {
+  color: #ffffff;
+}
+
+.halvetica{
+  font-family: Helvetica, sans-serif;
+}
+
+.photos {
+  border-radius: 12px;
+}
+
+#table {
+  background-color: #b5dad9;
+  border-color: #9fe4db;
+  font-family: Helvetica, sans-serif;
+}
+
+.personal {
+  background-color: #44849c;
+}
+
+.professional {
+  background-color: #446988
+}

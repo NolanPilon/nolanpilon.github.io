@@ -4,65 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Blog</title>
 </head>
 
 <body>
   <a name="top"></a>
-  <h1><big>Welcome to my page!</big></h1>
-  <h3>Here you will find information about me and my projects.</h3>
-  <hr size=2>
-  <hr size=2>
-  <img src="nolan.JPG" height="500">
-  <br>
-  <br>
-  <h3>Biography: </h3>
-  <p1>
-    <p>My name is Nolan J. Pilon. I was born July 3rd 2003 in Cornwall Ontario. <br>
-      I have recently graduated from <i>La Citadelle</i> highschool with a bilingual diploma<br>
-      I am also an Ontario Scholar. I am studying Game Programming at <i>St-Lawence College</i> <br>
-      with hopes of using the skills I learn to become a better indie developer. Also, my favorite color is <span style="color:red">red</span>.</p>
-    <blockquote><q>The future belongs to those who learn more skills and combine them in creative ways.</q> - Robert Green</blockquote>
-  </p1>
-  <h3>Hobbies & Interests: </h3>
-  <ul type="1">
-    <li> Skateboarding</li>
-    <li> Playing videogames</li>
-    <li> Coding games</li>
-    <ul>
-      <li> Cooking</li>
-      <li> Movies</li>
-      <li> Animals</li>
-    </ul>
-  </ul>
-  <h3>Hobbies Ranked: </h3>
-  <ol>
-    <li>Playing videogames</li>
-    <li>Coding games</li>
-    <li>Skateboarding</li>
-  </ol>
-  <h3>Contact Information: </h3>
-  <table border="1">
-    <tr>
-      <th>Email</th>
-      <th>Home Phone</th>
-      <th>Cell Phone</th>
-    </tr>
-    <tr>
-      <td>npilon2003@gmail.com</td>
-      <td>613-933-4744</td>
-      <td>343-867-3164</td>
-    </tr>
-    <tr>
-      <td>Availability</td>
-      <td colspan="2"> 9-5 weekdays & weekends</td>
-    </tr>
-  </table>
-  <h3><a href="https://nolanpilon.github.io/Portfolio.html"> Portfolio </a></h3>
   <center>
-    <a href="#top">Back to top of page</a>
+    <h1 class="halvetica"><big>Welcome to my page!</big></h1>
+    <h3 class="halvetica">Here you will find information about me and my projects.</h3>
   </center>
 
+  <style>
+    body {
+      background-color: #54acbc;
+    }
+
+    h1 {
+      font-family: sans-serif;
+      color: #ffffff;
+    }
+
+    h3 {
+      color: #9fe4db;
+    }
+  </style>
+  <div class="personal">
+    <hr>
+    <img src="nolan.JPG" height="500" class="photos">
+    <br>
+    <br>
+    <h3 class="halvetica">Biography: </h3>
+    <p1>
+      <p>My name is Nolan J. Pilon. I was born July 3rd 2003 in Cornwall Ontario. <br>
+        I have recently graduated from <i>La Citadelle</i> highschool with a bilingual diploma<br>
+        I am also an Ontario Scholar. I am studying Game Programming at <i>St-Lawence College</i> <br>
+        with hopes of using the skills I learn to become a better indie developer. Also, my favorite color is <span style="color:red">red</span>.</p>
+      <blockquote class="whiteColor"><q>The future belongs to those who learn more skills and combine them in creative ways.</q> - Robert Green</blockquote>
+    </p1>
+    <h3 class="halvetica">Hobbies & Interests: </h3>
+    <ul type="1" class="whiteColor halvetica">
+      <li> Skateboarding</li>
+      <li> Playing videogames</li>
+      <li> Coding games</li>
+      <ul>
+        <li> Cooking</li>
+        <li> Movies</li>
+        <li> Animals</li>
+      </ul>
+    </ul>
+    <h3 class="halvetica">Hobbies Ranked: </h3>
+    <ol class="whiteColor halvetica">
+      <li>Playing videogames</li>
+      <li>Coding games</li>
+      <li>Skateboarding</li>
+    </ol>
+  </div>
+  <div class="professional">
+    <h3 class="halvetica">Projects: </h3>
+    <p> I have worked on many prototypes and various small games <br>
+      that i have not published in the Unity3D engine. I have participated <br>
+      in two game jams so far and will continue doing so in the future. <br>
+      The two games I published are Apart, a puzzle platformer set in <br>
+      an abandoned lab, and Skal, a set of micro games with a viking theme.<br>
+      I have experience with many coding languages such as: HTML, CSS, C#, C++,<br>
+      and GML. I am most firmiliar with Unity3D however I have used Game Maker Studio<br>
+      and Unreal Engine in the past.
+
+    </p>
+
+    <h3 class="halvetica">Contact Information: </h3>
+    <table border="1" id="table">
+      <tr>
+        <th>Email</th>
+        <th>Home Phone</th>
+        <th>Cell Phone</th>
+      </tr>
+      <tr>
+        <td>npilon2003@gmail.com</td>
+        <td>613-933-4744</td>
+        <td>343-867-3164</td>
+      </tr>
+      <tr>
+        <td>Availability</td>
+        <td colspan="2"> 9-5 weekdays & weekends</td>
+      </tr>
+    </table>
+    <h3><a href="https://nolanpilon.github.io/Portfolio.html" class="whiteColor"> Portfolio </a></h3>
+    <center>
+      <a href="#top" class="whiteColor">Back to top of page</a>
+    </center>
+  </div>
 </body>
 
 </html>
