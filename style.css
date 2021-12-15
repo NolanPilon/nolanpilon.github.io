@@ -1,40 +1,104 @@
-p {
-  color: #ffffff;
-  font-family: sans-serif;
+body {
+  background: white;
+  margin:0;
 }
 
-hr {
-  width: 100%;
-  height: 4px;
-  background-color: #ffffff;
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 5px solid #c8c8c8;
+  border-radius: 20px;
+  background: black;
+  float: center;
+}
+.roundedimage {
+    border-radius: 15px;
+}
+.text {
+  font-family: "Tahoma", sans-serif;
+  font-size: 32px;
+}
+.review
+{
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+}
+.para {
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
 }
 
-q {
-  color: #ffffff;
+.image {
+  width: 25%;
+  border: 5px solid #ddd;
+  margin-right: 50px;
+  float: left;
 }
 
-.whiteColor {
-  color: #ffffff;
+.header
+{
+  padding: 5px;
+  text-align: left;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,149,0,1) 0%, rgba(175,0,255,1) 100%);
+  font-size: 15px;
 }
 
-.halvetica{
-  font-family: Helvetica, sans-serif;
+.centerpage
+{
+  padding: 100px;
+  text-align: left;
+  background: white;
+}
+.bottompage
+{
+  padding: 167px;
+  text-align: center;
+  background: #c8c8c8;
+}
+.back
+{
+  padding: 5px;
+  text-align: center;
+  background: #c8c8c8;
 }
 
-.photos {
-  border-radius: 12px;
+.navbar {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style-type: none;
 }
 
-#table {
-  background-color: #b5dad9;
-  border-color: #9fe4db;
-  font-family: Helvetica, sans-serif;
+nav li {
+        display: inline-block;
+        margin-left: 100px;
+        margin-right: 100px;
 }
 
-.personal {
-  background-color: #44849c;
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
 }
 
-.professional {
-  background-color: #446988
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.contact {
+  font-size: 48px;
+  font-family: "Helvetica", sans-serif;
+}
+
+.contactinfo {
+  width: 50%;
+  font-family: "Helvetica", sans-serif;
+  font-size: 24px;
+  border-spacing: 5px;
 }
